@@ -1,0 +1,36 @@
+<!-- please note that the format should be respected no header and no body only html tags-->
+
+
+<div id="extension-example-extension-content">
+  <div id="extension-example-extension-request">
+    <h2>Tips</h2>
+    <div id="extension-example-extension-form-content">
+      <h4>Hello im a an extension example, to have a good experience with me please follow the steps bellow:</h4>
+      <h4>content.html (./views/content.html): for editing DOM </h4>
+      <h4> extension.js (./js/extension.js): for editing js file, please respect the format given on the file</h4>
+      <h4> extension.css (./css/extension.css): for editing css properties </h4>
+      <h4> exemple-api-handler.js (./exemple-api-handler.js): file responsible of communication between extension and the API</h4>
+      <h4> index.js (./index.js): file responsible of loading, please note that if you rename the exemple-api-handler you must modify it also in index.js</h4>
+      <h4> manifest.json (./manifest.json): containing all properties of the extension such us css and js files path , author ...</h4>
+      <h3>bellow you find an example of api request </h3>
+    </div>
+    <h2>Echo Request</h2>
+    <div id="extension-example-extension-form-content">
+      <label for="key">Key: </label>
+      <input type="text" name="key" id="extension-example-extension-form-key" required>
+      <br>
+      <label for="value">Value: </label>
+      <input type="text" name="value" id="extension-example-extension-form-value" required>
+      <br>
+      <button type="button" id="extension-example-extension-form-submit">Send</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div id="extension-example-extension-response">
+    <h2>Echo Response</h2>
+    <pre id="extension-example-extension-response-data"></pre>
+  </div>
+</div>
