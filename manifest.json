@@ -20,10 +20,10 @@
     }
   },
   "homepage_url": "https://github.com/mozilla-iot/example-extension",
-  "id": "example-extension",
+  "id": "{{example-extension}}",
   "license": "MPL-2.0",
   "manifest_version": 1,
-  "name": "Example Extension",
+  "name": "{{Example Extension}}",
   "short_name": "Example",
   "version": "0.2.1",
   "web_accessible_resources": [
