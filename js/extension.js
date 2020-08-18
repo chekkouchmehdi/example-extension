@@ -1,8 +1,8 @@
 (function() {
   class ExampleExtension extends window.Extension {
     constructor() {
-      super('example-extension');                                                                       // <--- example-extension is the id of your extension please modify it here and in the manifest and the folder name
-      this.addMenuEntry('Example Extension');                                                           // <--- Example Extension is the name appeared in the Menu modify it with your extension name
+      super('{{example-extension}}');                                                                       // <--- example-extension is the id of your extension please modify it here and in the manifest and the folder name
+      this.addMenuEntry('{{Example Extension}}');                                                           // <--- Example Extension is the name appeared in the Menu modify it with your extension name
 
 
       if (!window.Extension.prototype.hasOwnProperty('load')) {
