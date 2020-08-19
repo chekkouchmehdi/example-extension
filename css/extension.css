@@ -23,8 +23,18 @@
   text-align: left;
   font-size: 1.6rem;
   color: #fff;
-  max-width: 60rem;
+  max-width: 80rem;
   margin: 0 auto;
+}
+
+.p{
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: smaller;
+}
+p span {
+  display: block;
 }
 
 #extension-example-extension-form-submit {
